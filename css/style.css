@@ -305,14 +305,72 @@ nav a:active {
 }
 
 
+.portfolio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 
+}
 
+.portfolio h2 { 
+  display: none;
+}
 
+.portfolio-select {
+  width: 576px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 
+  padding: 176px 0 52px;
+}
 
+.portfolio button { 
+  height: 36px;
+  width: auto;
+  padding: 0 24px;
+}
 
+.portfolio-work-example {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
+.portfolio-work-example li {
+  width: 368px;
+  margin: 8px;
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.portfolio-work-example div p {
+  font-size: 18px;
+  color: var(--inverse-color);
+  background: rgba(33, 150, 243, 0.9);
+  width: 320px;
+  height: 246px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 24px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.portfolio-work-example div {
+  position: relative;
+}
+
+.portfolio-work-example h3:{
+  
+}
 
 
 
