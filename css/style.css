@@ -21,6 +21,11 @@ h2 {
   font-weight: 700;
 }
 
+h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
 header {
 /*  width: 1600px;*/
   height: 80px;
@@ -246,12 +251,58 @@ nav a:active {
   width: 100%;
   height: 708px;
   background-color: var(--section-accent-bg-color);
+  text-align: center;
+}
+
+.department .wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.department h2 {
+  margin-top: 94px;
+  text-align: center;
+}
+
+.department ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.department ul ul{
+  width: 208px;
+  height: 44px;
+  padding: 16px 32px;
+}
+
+.department ul ul li{
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.department ul ul li:hover {
+  background-image: url(../images/vector/logo-soc-bg.svg);
+}
+
+.department ul ul img:hover {
+  cursor: pointer;
 }
 
 
+.department img {
+  padding: 24px 0;
+}
 
-
-
+.department h3 {
+  padding: 12px 0;
+}
 
 
 
